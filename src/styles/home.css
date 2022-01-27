@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+header {
+  height: 15vh;
+  background-color: #050a30;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.main {
+  width: 100%;
+  min-height: 85vh;
+  background-color: #055c9d;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.state-dropdown {
+  width: 300px;
+}
+
+h3 {
+  margin: 16px 0 !important;
+  color: white;
+}
+
+.state-covid-stats {
+  display: flex;
+  justify-content: space-evenly;
+  min-height: 65vh;
+  width: 50%;
+  margin: 16px 0;
+  align-items: center;
+  background: #0b1250;
+  padding: 2rem;
+}
+
+.stat-container {
+  height: 300px;
+  width: 400px;
+  padding: 12px;
+  color: white;
+}
+
+.stat-container h5 {
+  margin: 24px 0;
+}
+
+.stat-container span {
+  background: white;
+  color: black;
+  padding: 8px;
+  border-radius: 8px;
+  font-size: 15px;
+  margin: 0 8px;
+}
+
+.graph-container {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.pie-chart {
+  height: 300px !important;
+  width: 300px !important;
+}
+
+/* Styles for mobile size */
+
+@media only screen and (max-width: 600px) {
+  .state-covid-stats {
+    width: 90%;
+    flex-direction: column;
+  }
+
+  h3 {
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .stat-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    left: 5rem;
+  }
+
+  .stat-container h5 {
+    font-size: 12px;
+  }
+
+  .stat-container span {
+    font-size: 10px;
+  }
+}
+
+/* Styles For Medium screen */
+
+@media only screen and (min-width: 600px) and (max-width: 1300px) {
+  h3 {
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .state-covid-stats {
+    width: 80%;
+    margin: 16px 0;
+  }
+
+  .stat-container {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .stat-container h5 {
+    font-size: 12px;
+  }
+
+  .stat-container span {
+    font-size: 10px;
+  }
+
+  .graph-container {
+    width: 300px;
+    height: 300px;
+  }
+
+  .pie-chart {
+    height: 250px !important;
+    width: 250px !important;
+  }
+}
