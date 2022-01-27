@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -43,4 +43,28 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To learn React, check out the [React documentation](https://reactjs.org/). -->
+
+# Project-Title
+
+Live Covid Data Dashboard
+
+# Project Description
+
+This project gives user the current covid data for a particular Indian State which the user selects from the dropdown.
+
+The project also has a Pie chart which visualizes the active, recovered and death cases.
+
+# Technologies & Libraries Used In The Project
+
+The project is basically developed in the ReactJs which is a UI library for building user interfaces with components based approach and it is being maintained by Facebook.
+
+The project is developed using Typescript for easy debugging and code reading.
+
+It also has Powerful type system, including generics.
+
+We have used React-Select npm library for handling the dropdown events as it is easy to work with it with minimum styling.
+
+We have used chart.js npm library for the Pie chart visualization.
+
+Also we have used Axios npm library for API calls and API handling.

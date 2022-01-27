@@ -25,7 +25,7 @@ const Home = () => {
     label: 'Please Select State',
   });
 
-  ///////////////////////////// PIE DATA /////////////////////////////////
+  ///////////////////////////// PIE CHART DATA /////////////////////////////////
 
   const data = {
     labels: ['Deaths', 'Recovered', 'Active'],
