@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import '../styles/home.css';
-import { Base_URL, ICovidDataStatewise, stateOption } from '../constants/constants';
+import { ICovidDataStatewise, stateOption } from '../constants/constants';
 import Select, { SingleValue } from 'react-select';
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
 import { Pie } from 'react-chartjs-2';
@@ -44,7 +44,7 @@ const Home = () => {
 
   const getApiData = async () => {
     try {
-      const res = await axios.get(`${Base_URL}data.json`);
+      const res = await axios.get(`https://api.covid19india.org/data.json`);
       setCovidData(res.data.statewise);
       console.log(res.data.statewise);
     } catch (err) {

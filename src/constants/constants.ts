@@ -7,5 +7,3 @@ export interface ICovidDataStatewise {
 }
 
 export type stateOption = {label: string, value: string}
-
-export const Base_URL = "https://api.covid19india.org/"
