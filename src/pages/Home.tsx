@@ -45,7 +45,6 @@ const Home = () => {
     try {
       const res = await axios.get("https://data.covid19india.org/data.json");
       setCovidData(res.data.statewise);
-      console.log(res.data.statewise);
     } catch (err) {
       alert(err);
     }
