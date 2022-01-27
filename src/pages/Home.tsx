@@ -43,7 +43,7 @@ const Home = () => {
   // API Call for getting the data
   const getApiData = async () => {
     try {
-      const res = await axios.get(`https://api.covid19india.org/data.json`);
+      const res = await axios.get("https://data.covid19india.org/data.json");
       setCovidData(res.data.statewise);
       console.log(res.data.statewise);
     } catch (err) {
