@@ -1,9 +1,15 @@
-export interface ICovidDataStatewise {
-  active: string;
-  confirmed: string;
-  deaths: string;
-  recovered: string;
-  state: string;
+export interface IStateObj  {
+    label:string,
+    value:string
 }
 
-export type stateOption = {label: string, value: string}
+export interface IStateResponse {
+    name:string,
+    state:string
+}
+
+export interface ICovidData {
+    positive:number,
+    death:number,
+    hospitalized:number
+}

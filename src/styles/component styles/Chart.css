@@ -1,0 +1,27 @@
+.pie-chart {
+  height: 350px !important;
+  width: 350px !important;
+}
+
+.display-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 24px 0 24px 16px;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .pie-chart {
+    height: 300px !important;
+    width: 300px !important;
+  }
+
+  .display-info {
+    margin: 24px 0 24px 32px;
+  }
+
+  .display-info h4 {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,10 @@
+.pie-chart-1 {
+  background-color: #050a30;
+  padding: 6px;
+  height: 75vh;
+  margin: 16px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+}
